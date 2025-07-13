@@ -27,7 +27,6 @@ public static void main(String[] args) {
 	
 	Payment payment=new Payment(cart.totalCost(),"Credit Card");
 	
-
 	System.out.println("Payment amount :Rs"+payment.getAmount());
 	System.out.println("payment method :"+payment.getPaymentMethod());
 	
