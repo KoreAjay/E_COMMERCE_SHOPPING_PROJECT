@@ -10,7 +10,6 @@ private HashMap<UUID,Integer> stockLevel=new HashMap<>();
 private HashMap<UUID,Customer> customers=new HashMap<>();
 private HashMap<UUID,Order> orders=new HashMap<>();
 
-
 public Admin() {}
 
 void addProduct(Product product) {prooducts.put(product.getProductID(),product);}
@@ -45,3 +44,4 @@ void updateCustomer(Customer CustomerToUpdate) {
 
 
 }
+
