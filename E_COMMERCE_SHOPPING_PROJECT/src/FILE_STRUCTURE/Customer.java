@@ -1,7 +1,6 @@
 package FILE_STRUCTURE;
 
 import java.util.UUID;
-
 public class Customer {
 private static final boolean ture = false;
 private UUID customerID;
@@ -68,4 +67,5 @@ public boolean equals(Object obj) {
 }
 
 }
+
 
